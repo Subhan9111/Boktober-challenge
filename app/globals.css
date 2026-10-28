@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "@navikt/ds-css";
+
+body {
+  margin: 0;
+  background: white;
+  color: black;
+  font-family: "Source Sans 3", Arial, sans-serif;
+}
+.side {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 3 rem;
+}
