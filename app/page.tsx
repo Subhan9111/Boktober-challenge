@@ -9,6 +9,7 @@ import {
   BodyShort,
   Page,
   VStack,
+  InternalHeader,
 } from "@navikt/ds-react";
 
 const artikkel = [
@@ -41,7 +42,23 @@ export default function Home() {
   };
 
   return (
-    <Page>
+    <Page
+      footer={
+        <div
+          style={{ background: "#c30000", color: "white", padding: "1.5rem 0" }}
+        >
+          <Page.Block as="footer" width="2xl" gutters>
+            <BodyShort>laget av praksis elev hos NAV, Boktober 2026</BodyShort>
+          </Page.Block>
+        </div>
+      }
+    >
+      <InternalHeader>
+        <InternalHeader.Title as="div">
+          <img src="/NAV_logo.svg" alt="Nav" height={24} />
+        </InternalHeader.Title>
+      </InternalHeader>
+
       <Page.Block width="md" gutters>
         <VStack gap="space-24" align="center" paddingBlock="space-48">
           <Heading level="1" size="xlarge">
