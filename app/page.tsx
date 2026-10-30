@@ -11,6 +11,7 @@ import {
   VStack,
   InternalHeader,
 } from "@navikt/ds-react";
+import { NavLogo } from "./NavLogo";
 
 const artikkel = [
   {
@@ -129,7 +130,9 @@ export default function Home() {
       }
     >
       <InternalHeader>
-        <InternalHeader.Title as="div">NAV</InternalHeader.Title>
+        <InternalHeader.Title as="div">
+          <NavLogo height={53} style={{ color: "#c30000" }} />
+        </InternalHeader.Title>
       </InternalHeader>
 
       <Page.Block width="md" gutters>
