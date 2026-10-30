@@ -2,7 +2,7 @@ export function NavLogo(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 841.9 595.3"
+      viewBox="320 268 200 60"
       fill="currentColor"
       role="img"
       aria-label="Nav"

@@ -131,7 +131,7 @@ export default function Home() {
     >
       <InternalHeader>
         <InternalHeader.Title as="div">
-          <NavLogo height={53} style={{ color: "#c30000" }} />
+          <NavLogo height={20} width={100} style={{ color: "#c30000" }} />
         </InternalHeader.Title>
       </InternalHeader>
 
