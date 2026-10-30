@@ -55,7 +55,7 @@ export default function Home() {
     >
       <InternalHeader>
         <InternalHeader.Title as="div">
-          <img src="/NAV_logo.svg" alt="Nav" height={24} />
+          NAV 
         </InternalHeader.Title>
       </InternalHeader>
 
